@@ -1,7 +1,7 @@
 #include "common.c"
 
-float alpha = 0.5f;
-float beta = -100.0f;
+int alpha = 1;
+int beta = 1;
 int matsize = 100; 
 
 int main(void) {
