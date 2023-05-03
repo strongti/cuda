@@ -1,12 +1,12 @@
 #include "common.c"
 
 
-float alpha = 0.5f;
-float beta = -100.0f;
+int alpha = 1;
+int beta = 1;
 int matsize = 100; 
 
 
-__global__ void kernelGEMM( float* C, float* A, float* B, int matsize, float alpha, float beta ) {
+__global__ void kernelGEMM( float* C, float* A, float* B, int matsize, int alpha, int beta ) {
 	//Matrix multiply concept with Matrix add
 
 
